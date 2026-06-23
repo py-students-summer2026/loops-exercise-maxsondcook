@@ -18,11 +18,11 @@ def do_easy():
 
 def do_medium():
     # "medium" problems
-    #medium.one()
+    medium.one()
     #medium.two()
     #medium.three()
     #medium.four()
-    #medium.five()
+    medium.five()
     #medium.six(8)
     #medium.seven()
     #medium.eight()

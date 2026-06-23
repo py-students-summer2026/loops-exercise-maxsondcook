@@ -16,7 +16,7 @@ def one():
     elements=[]
     for i in user_input.split(","):
         elements.append(int(i))
-    largest=elements[0]
+    largest=0
     for i in elements:
         if i>largest:
             largest=i
@@ -63,7 +63,7 @@ def five():
     elements=[]
     for i in user_input.split(","):
         elements.append(int(i))
-    largest=elements[0]
+    largest=0
     second_largest=0
     for i in elements:
         if i>largest:
